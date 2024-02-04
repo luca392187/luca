@@ -1,0 +1,5 @@
+from itertools import permutations
+numero = "3381111111"
+combinazioni = permutations(numero)
+for combinazione in combinazioni:
+    print(''.join(combinazione))
